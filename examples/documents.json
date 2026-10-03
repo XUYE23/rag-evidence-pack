@@ -1,0 +1,18 @@
+[
+  {
+    "id": "docs",
+    "title": "Archive manual",
+    "text": "The archive retains logs for 30 days. Exporting logs requires administrator permission.",
+    "metadata": {
+      "language": "en"
+    }
+  },
+  {
+    "id": "zh",
+    "title": "运维规范",
+    "text": "日志保留期限为30天。导出日志需要管理员权限。",
+    "metadata": {
+      "language": "zh"
+    }
+  }
+]

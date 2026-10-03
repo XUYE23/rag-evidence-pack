@@ -1,0 +1,36 @@
+{
+  "context": "[b3697710c4d82227]\n日志保留期限为30天。\n\n[9605daf9ecc89943]\n导出日志需要管理员权限。",
+  "spans": [
+    {
+      "citation": "b3697710c4d82227",
+      "document_id": "policy",
+      "title": "运维规范",
+      "start": 0,
+      "end": 11,
+      "text": "日志保留期限为30天。",
+      "score": 0.9378610904769691,
+      "source_sha256": "f70964768121bf303465b285ca9a339a8c891a45aac9149b3459466a3989ebda",
+      "metadata": {
+        "language": "zh"
+      }
+    },
+    {
+      "citation": "9605daf9ecc89943",
+      "document_id": "policy",
+      "title": "运维规范",
+      "start": 11,
+      "end": 23,
+      "text": "导出日志需要管理员权限。",
+      "score": 0.7839614266008075,
+      "source_sha256": "f70964768121bf303465b285ca9a339a8c891a45aac9149b3459466a3989ebda",
+      "metadata": {
+        "language": "zh"
+      }
+    }
+  ],
+  "used": 105,
+  "budget": 220,
+  "unit": "utf8_bytes",
+  "source_verified": true,
+  "input_text_bytes": 359
+}

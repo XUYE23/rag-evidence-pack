@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-evidence-pack"
+version = "0.1.0"
+description = "Budgeted bilingual RAG context with verifiable source spans."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "XUYE23"}]
+dependencies = []
+classifiers = ["Development Status :: 3 - Alpha", "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License"]
+
+[project.urls]
+Repository = "https://github.com/XUYE23/rag-evidence-pack"
+Issues = "https://github.com/XUYE23/rag-evidence-pack/issues"
+
+[project.scripts]
+rag-evidence-pack = "rag_evidence_pack.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

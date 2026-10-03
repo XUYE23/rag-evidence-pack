@@ -1,0 +1,8 @@
+{
+  "knowledge_id": "docs",
+  "query": "日志保留多久？",
+  "retrieval_setting": {
+    "top_k": 3,
+    "score_threshold": 0
+  }
+}
